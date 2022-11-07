@@ -13,7 +13,7 @@ const projects = [
         title: 'Weather Forcast',
         description:'A weather application that uses a weather API to determine the weather for a the city that the user inputs for the next 5 days.',
         image: WeatherAPI,
-        deployedLink: '',
+        deployedLink: "https://annguyentran.github.io/Challenge-6/",
         codeLink:'',
         id: 1
     },
@@ -21,7 +21,7 @@ const projects = [
         title: 'Password Generator',
         description:'A password generator that will generate a new password for the user and the user is able to customize the length and the characters used in the password',
         image: PasswordScreenShot,
-        deployedLink: '',
+        deployedLink: 'https://annguyentran.github.io/Challenge-3-/',
         codeLink:'',
         id: 2
 
@@ -30,7 +30,7 @@ const projects = [
         title: 'Planner',
         description:'The user is able to write notes in the timebox to plan out their day. The timeboxes will be colored differently depending on the time of day.',
         image: Planner,
-        deployedLink: '',
+        deployedLink: 'https://annguyentran.github.io/Challenge-5-Redo/',
         codeLink:'',
         id: 3
 
@@ -39,7 +39,7 @@ const projects = [
         title: 'Movie Searcher',
         description:'This application uses a movie API to search for movies. The user is able to type a movie and and then a description, picture and streaming information will be presented to the user.',
         image: MovieSearcher,
-        deployedLink: '',
+        deployedLink: 'https://annguyentran.github.io/Project-1-/',
         codeLink:'',
         id: 4
 
@@ -48,7 +48,7 @@ const projects = [
         title: 'Note Taker',
         description:'The application uses express and is able to save whatever notes the user types. The user can keep on adding new sections to type notes.',
         image: NoteTaker,
-        deployedLink: '',
+        deployedLink: 'https://note-taker-puppy.herokuapp.com/',
         codeLink:'',
         id: 5
 
@@ -57,7 +57,7 @@ const projects = [
         title: 'Pokedex',
         description:'This application resembles the poxedex shown in the tv show pokemon. The user is able to create an account with their name, email and password. Once created, 6 random pokemon from the original series will be generated for them from a pokemon npm package. They are able to see the names and the description.',
         image: Pokedex,
-        deployedLink: '',
+        deployedLink: 'https://note-taker-puppy.herokuapp.com/',
         codeLink:'',
         id: 6
 
@@ -72,7 +72,8 @@ const projects = [
             <h2>This is my work</h2>
             <div>
                 {projects.map(project => (
-                    <ProjectCard key={project.id}title={project.title}description={project.description}image={project.image}/>
+                    <ProjectCard key={project.id}title={project.title}description={project.description}image={project.image}deployedLink={project.deployedLink}/>
+                    
                 ))}
             </div>
         </div>

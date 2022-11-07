@@ -14,19 +14,19 @@ function Header({currentPage, handlePageChange}) {
         <ul className="nav nav-pills">
           <li className="nav-item">
             <a href='#aboutMe' onClick={() => handlePageChange('aboutMe')}
-              className="nav-link fs-4 ">{aboutMe}</a>
+              className={currentPage === 'aboutMe' ? 'nav-link active fs-4' : 'nav-link fs-4'}>{aboutMe}</a>
           </li>
           <li className="nav-item">
             <a href='#portfolio' onClick={() => handlePageChange('portfolio')}
-              className="nav-link fs-4 ">{portfolio}</a>
+              className={currentPage === 'portfolio' ? 'nav-link active fs-4' : 'nav-link fs-4'}>{portfolio}</a>
           </li>
           <li className="nav-item">
             <a href='#contact' onClick={() => handlePageChange('contact')}
-              className="nav-link fs-4 ">{contact}</a>
+              className={currentPage === 'contact' ? 'nav-link active fs-4' : 'nav-link fs-4'}>{contact}</a>
           </li>
           <li className="nav-item">
             <a href='#resume' onClick={() => handlePageChange('resume')}
-              className="nav-link fs-4 ">{resume}</a>
+              className={currentPage === 'resume' ? 'nav-link active fs-4' : 'nav-link fs-4'}>{resume}</a>
           </li>
         </ul>
       </h2>
