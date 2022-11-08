@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/react_portfolio/static/js/main.c1158f18.js",
+    "static/media/movie-search-app-screenshot.png": "/react_portfolio/static/media/movie-search-app-screenshot.b2319ac3f3fb4f372a7f.png",
+    "static/media/profile-picture.jpg": "/react_portfolio/static/media/profile-picture.571eb2dc1e9e0861051b.jpg",
+    "static/media/Pokedex-Screenshot.png": "/react_portfolio/static/media/Pokedex-Screenshot.9421546c9580750d9ef3.png",
+    "static/media/Weather-Screenshot.png": "/react_portfolio/static/media/Weather-Screenshot.7d9be49ea7127520cd20.png",
+    "static/media/Work-Day-Screenshot.png": "/react_portfolio/static/media/Work-Day-Screenshot.a33aea1b836b4c371174.png",
+    "static/media/Password-Generator-Screenshot.png": "/react_portfolio/static/media/Password-Generator-Screenshot.569f10e9992ce2ea1878.png",
+    "static/media/NOTE-TAKER-START.png": "/react_portfolio/static/media/NOTE-TAKER-START.6f574e5c5089e63b2808.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.c1158f18.js.map": "/react_portfolio/static/js/main.c1158f18.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c1158f18.js"
+  ]
+}
