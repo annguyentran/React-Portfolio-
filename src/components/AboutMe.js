@@ -1,5 +1,5 @@
 import React from 'react';
-import profilepic from '../images/logo192.png'
+import profilepic from '../images/profile-picture.jpg'
 
 function AboutMe() {
     const aboutMe = 'About Me'
@@ -9,7 +9,7 @@ function AboutMe() {
     return (
         <div id='aboutMe'className='container'>
             <p className="display-5 fw-bold text-center">{aboutMe}</p>
-            <img className="d-block mx-auto mb-4" alt='This is a profile pic'src={profilepic} width='100'height='100'></img>
+            <img className="d-block mx-auto mb-4" alt='This is a profile pic'src={profilepic} width='250'height='200'></img>
             <p className="col-lg-6 mx-auto lead mb-4">{description}</p>
         </div>
     )

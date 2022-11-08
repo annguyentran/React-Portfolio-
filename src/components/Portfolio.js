@@ -69,8 +69,8 @@ const projects = [
 
     return(
         <div>
-            <h2>This is my work</h2>
-            <div>
+            <h2 className='text-center'>Projects</h2>
+            <div className='d-flex flex-wrap justify-content-around'>
                 {projects.map(project => (
                     <ProjectCard key={project.id}title={project.title}description={project.description}image={project.image}deployedLink={project.deployedLink}/>
                     

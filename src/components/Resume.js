@@ -21,7 +21,7 @@ const Backend = {
 function Resume() {
     return (
         <div className='container'>
-            <h2>My Resume</h2>
+            <a href='../Downloadable/Website-Development-Resume.pdf' download='Resume'>My Resume</a>
             <div>
                 <ul className='list-group'>
                     <h3 className='m-3'>Frontend Skills</h3>
