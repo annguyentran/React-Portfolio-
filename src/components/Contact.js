@@ -1,11 +1,9 @@
-
 import React, { useRef, useState } from 'react';
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { checkPassword, validateEmail } from '../utils/helpers';
 
 
 export const Contact = () => {
     const [email, setEmail] = useState('');
-    
 
     return (
         <form>
